@@ -151,7 +151,8 @@ int valchat()
 {
     Sleep(4000);
     gotoxy(0, 0);
-    PlaySound(TEXT("C:\\Users\\yangluwei\\source\\repos\\valclient\\valclient\\正确-系统提示游戏提示_爱给网_aigei_com.wav"), NULL, SND_FILENAME | SND_ASYNC);
+    PlaySound(TEXT("./正确-系统提示游戏提示_爱给网_aigei_com.wav"), NULL, SND_FILENAME | SND_ASYNC);
+    //此处用文本文件打印更好，懒得改了，这样写有点蠢的（）
     cout <<
         "oooooo     oooo           oooo    .oooooo.   oooo                      .   \n" <<
         " `888.     .8'            `888   d8P'  `Y8b  `888                    .o8   \n" <<
@@ -185,5 +186,6 @@ BOOL SetConsoleColor(WORD wAttributes)
 void bgm()
 {
     Sleep(5500);
-    PlaySound(TEXT("D:\\下载\\ewsfm-yslvo .wav"), NULL, SND_FILENAME | SND_ASYNC);;
+    PlaySound(TEXT("./ewsfm-yslvo .wav"), NULL, SND_FILENAME | SND_ASYNC);;
+
 }

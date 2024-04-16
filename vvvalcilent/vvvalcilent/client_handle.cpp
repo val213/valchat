@@ -82,7 +82,7 @@ int handle_chat_resp(CHAT_RESP* c)
 	//printf("client: recv chat msg resp from server, c_stat=%d\n", c->c_stat);
 	if (c->c_stat == SND_OK)
 	{
-		PlaySound(TEXT("D:\\ÏÂÔØ\\5j1z8-v5cjr.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("./5j1z8-v5cjr.wav"), NULL, SND_FILENAME | SND_ASYNC);
 		printf("client: chat msg send ok\n");
 		return 0;
 	}
@@ -96,7 +96,7 @@ int handle_chat_msg(CHAT_MSG* c)
 {
 	msg_decipher(c->ch_msg, CIPHER_KEY);
 	printf("client: chat mes from %d : %s\n", c->ch_sid, c->ch_msg);
-	PlaySound(TEXT("D:\\ÏÂÔØ\\5j1z8-v5cjr.wav"), NULL, SND_FILENAME | SND_ASYNC);
+	PlaySound(TEXT("./5j1z8-v5cjr.wav"), NULL, SND_FILENAME | SND_ASYNC);
 	client_log_save(c->ch_msg, c->ch_sid, c->ch_rid);
 
 	return 0;

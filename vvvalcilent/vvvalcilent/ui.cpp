@@ -71,5 +71,5 @@ void SetColor(int& fore, int& back)
 }
 void errmusic()
 {
-	PlaySound(TEXT("D:\\обть\\f1xn4-w5rnt.wav"), NULL, SND_FILENAME | SND_ASYNC);
+	PlaySound(TEXT("./f1xn4-w5rnt.wav"), NULL, SND_FILENAME | SND_ASYNC);
 }

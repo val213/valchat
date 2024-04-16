@@ -81,4 +81,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="5j1z8-v5cjr.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="f1xn4-w5rnt.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
 </Project>
