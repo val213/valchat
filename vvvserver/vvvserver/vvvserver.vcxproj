@@ -145,6 +145,10 @@
     <ClCompile Include="serv_user.cpp" />
     <ClCompile Include="ui.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="ewsfm-yslvo .wav" />
+    <Media Include="正确-系统提示游戏提示_爱给网_aigei_com.wav" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

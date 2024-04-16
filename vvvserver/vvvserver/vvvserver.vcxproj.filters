@@ -63,4 +63,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="正确-系统提示游戏提示_爱给网_aigei_com.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="ewsfm-yslvo .wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
 </Project>

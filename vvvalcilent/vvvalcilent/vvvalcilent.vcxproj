@@ -151,6 +151,10 @@
     <ClCompile Include="msg_cipher.cpp" />
     <ClCompile Include="ui.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="5j1z8-v5cjr.wav" />
+    <Media Include="f1xn4-w5rnt.wav" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
